@@ -1,0 +1,297 @@
+body > header .nav_one{
+    background-color: #ececec;
+    padding-top: 10px
+}
+body > header .nav_one ul{
+    padding: 0px;
+    list-style: none
+}
+body > header .nav_one ul li{
+    display: inline-block;
+    color: #888888;
+    padding-right: 25px
+}
+body > header .nav_one ul li a{
+    color: #888888;
+}
+body > header .nav_one ul li img{
+    display: inline-block;
+    width: 18px;
+    height: 18px
+}
+body > header .nav_one select{
+    background-color: transparent;
+    border: none;
+}
+body > header .nav_one .social_media img{
+    display: inline-block;
+    width: 18px;
+    height: 18px
+}
+body > header .nav_one .social_media a + a{
+    margin-left: 15px 
+}
+body > header .nav_two{
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+body > header .nav_two .item{
+    color: black;
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 20px
+}
+body > header .nav_two .item img{
+    width: 35px;
+    height: 35px;
+}
+body > header .nav_two .sigle img{
+    width: 150px;
+    height: 80px
+}
+body > header .nav_three{
+    background-color: #1eb3f8;
+}
+body > header .nav_three .nav_item{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-right: white 1px solid;
+    cursor: pointer;
+    height: 60px
+}
+body > header .nav_three .input-group{
+    background-color: white;
+    padding: 2px;
+}
+body > header .nav_three .input-group-text{
+    background-color: #1eb3f8
+}
+body > header .nav_three .input-group-text img{
+    width: 18px;
+    height: 18px
+}
+body > header .nav_three .search_box{
+    padding-top: 10px;
+    width: 300px
+}
+body > header .nav_three .form-control{
+    border: none
+}
+.article_grand_plant{
+    background-color: #dbf3fb;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.article_grand_plant .image{
+    width: 100%;
+    height: 350px
+}
+.article_grand_plant .description{
+    padding-top: 100px
+}
+.article_grand_plant .description .title{
+    font-weight: bold;
+    font-size: 25px
+}
+.article_grand_plant .description .status{
+    color: red
+}
+.liste_article{
+    padding-top: 50px
+}
+.liste_article > .categorie_label{
+    color: black;
+    font-weight: 30px
+}
+.liste_article .item{
+    width: 280px;
+    border: #b7b7b7 1px solid;
+    padding: 7px;
+    text-align: center;
+    padding-bottom: 10px
+}
+.liste_article_label{
+    margin-top: 50px
+}
+.liste_article .item .image{
+    width: 100%;
+    height: 270px;
+    background-color: #e6e6e6;
+    text-align: center;
+    position: relative
+}
+.liste_article .item .image img{
+    width: 100%;
+    height: 100%
+}
+.liste_article .item .image .links{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 100%;
+}
+.liste_article .item .image .links .item{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    border: none
+}
+.liste_article .item .image .links .item img{
+    width: 100%;
+    height: 100%
+}
+.liste_article .item .stars{
+    text-align: center;
+    margin-top: 15px
+}
+.liste_article .item .stars img{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px
+}
+.liste_article .item .title{
+    color: black;
+    font-size: 25px
+}
+.liste_article .item .desc{
+    color: gray
+}
+.liste_article .item .prise{
+    font-weight: bold;
+    color: yellowgreen;
+    font-size: 20px
+}
+.liste_article{
+    padding-left: 10px;
+    padding-right: 10px
+}
+.aricle_sale{
+    margin-top: 60px;
+    text-align: center
+}
+.aricle_sale > div:first-child{
+    background-color: #20b2fa;
+}
+.aricle_sale > div:nth-child(2){
+    background-color: #e2f5fd;
+}
+.aricle_sale > div:first-child .title{ 
+    color: white;
+    font-weight: bold;
+    font-size: 25px
+}
+.aricle_sale > div:nth-child(2) img{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px
+}
+.aricle_sale > div:first-child .status{ 
+    color: white;
+    font-weight: bold;
+    font-size: 90px
+}
+.aricle_sale > div:first-child .date{ 
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+.aricle_sale > div:nth-child(2) .status{
+    color: #20b2fa;
+    font-weight: bold;
+    font-size: 25px;
+}
+.aricle_sale > div{
+    padding-top: 20px;
+}
+body > header .nav_three .menu_icon{
+    display: none;
+    padding-top: 15px
+}
+body > header .nav_three .menu_icon img{
+    width: 35px;
+    height: 35px
+}
+@media(min-width: 950px){
+    body > header .nav_one{
+        height: 45px;
+    }
+    body > header .nav_one, 
+body > header .nav_two, 
+body > header .nav_three, 
+.article_grand_plant,
+.liste_article_label,
+.aricle_sale
+{
+    padding-left: 80px;
+    padding-right: 80px
+}
+body > header .nav_three{
+    background-color: #1eb3f8;
+    height: 60px
+}
+}
+@media(max-width: 950px){
+    body > header .nav_one{
+        text-align: center;
+        padding-bottom: 10px
+    }
+    body > header .nav_one ul{
+        width: 100%;
+    }
+    body > header .nav_one ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    body > header .nav_one > div > div{
+        width: 100%
+    }
+    body > header .nav_two > div > div{
+        margin: auto;
+    }
+    body > header .nav_three .search_box{
+        width: 200px;
+    }   
+    body > header .nav_three .menu_icon{
+        display: inline-block;
+    }
+    body > header .nav_one, 
+    body > header .nav_two, 
+    body > header .nav_three, 
+    .article_grand_plant,
+    .liste_article_label,
+    .aricle_sale
+    {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    body > header .nav_three .nav_item{
+        display: block;
+        width: 100%;
+        display: none
+    }
+    .liste_article .item{
+        margin: auto;
+        margin-bottom: 20px
+    }
+    .aricle_sale > div:nth-child(2) img{
+        width: 100%
+    }
+    .aricle_sale > div:first-child .status{
+        font-size: 25px
+    }
+    .aricle_sale > div:first-child .title{
+        font-size: 15px
+    }
+}
+
+
+
+
